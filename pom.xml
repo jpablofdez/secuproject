@@ -9,10 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.security.jwt</groupId>
-	<artifactId>spring-boot-secuproject</artifactId>
+	<artifactId>secuproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-secuproject</name>
+	<name>secuproject</name>
 	<description>Demo project for Spring Boot</description>
+	
+	<properties>
+		<java.version>13</java.version>
+	</properties>
 	
 	<dependencies>
 		<dependency>
