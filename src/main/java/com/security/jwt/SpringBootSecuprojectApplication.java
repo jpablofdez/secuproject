@@ -14,10 +14,7 @@ public class SpringBootSecuprojectApplication {
 
   @Resource
   FilesStorageService storageService;
-  @Bean
-  BCryptPasswordEncoder bCryptPasswordEncoder(){
-      return new BCryptPasswordEncoder();
-  }
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootSecuprojectApplication.class, args);
 	}
